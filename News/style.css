@@ -1,0 +1,458 @@
+/******************************************************************************
+/* STYLESHEET FOR: Default Vortex Page/Forums                                 *
+/******************************************************************************/
+
+/*
+http://wellstyled.com/tools/colorscheme2/index-en.html?mono;50;0;225;0.3;-0.8;0.3;0.5;0.1;0.9;0.5;0.75;0.3;-0.8;0.3;0.5;0.1;0.9;0.5;0.75;0.3;-0.8;0.3;0.5;0.1;0.9;0.5;0.75;0.3;-0.8;0.3;0.5;0.1;0.9;0.5;0.75;0
+*/
+
+/******************************************************************************
+/*                             HTML ELEMENTS                                  *
+/******************************************************************************/
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8pt;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  scrollbar-base-color: #000000;
+  scrollbar-arrow-color: #FFFFFF;
+  scrollbar-3dlight-color: #797964;
+  scrollbar-darkshadow-color: #4A4A3C;
+  scrollbar-face-color: #390A02;
+  scrollbar-highlight-color: #4A4A3C;
+  scrollbar-shadow-color: #000000;
+  scrollbar-track-color: #4A4A3C;
+  scrollbar-highlight-color: #4A4A3C;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #EED317;
+}
+
+td {
+
+}
+
+input, select {
+  font: bold 11px Arial, Helvetica, sans-serif;
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+
+
+
+
+/******************************************************************************
+/*                           PAGE LAYOUT STYLES                               *
+/******************************************************************************/
+
+/* The main container surrounding EVERYTHING. */
+.pageAllContentBlock {
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  display: table;
+}
+
+/* The block holding the header image and any related elements. */
+.pageHeaderBlock {
+  width: 100%;
+  vertical-align: middle;
+  text-align: left;
+  background-color: #C0C0C0;
+  color: #000000;
+  border-bottom: 2px solid #000000;
+  font-weight: bold;
+}
+
+.pageHeaderBlock div {
+  padding: 6px;
+}
+
+/* The left-hand side block for menus, etc. */
+.pageSidebarBlock {
+  width: 144px;
+  background-color: #C0C0C0;
+  color: #000;
+  padding: 8px;
+}
+
+/* The right-hand side block for the main body content. */
+.pageMainBodyBlock {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+
+.pageMainBodyBlock div {
+  margin: 6px;
+}
+
+/* The block holding the footer image and any related elements. */
+.pageFooterBlock {
+  height: 36px;
+  display: table-cell;
+  background-color: #ccc;
+  vertical-align: bottom;
+  text-align: center;
+  color: #000;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+/***************************************/
+/*********  Launcher News Styles *******/
+/***************************************/
+
+.launcherNewsChannelContainer {
+  width: 100%;
+  text-align: center;
+  font-size: 14pt;
+  font-weight: bold;
+  padding-bottom: 10px;
+  display: none;
+}
+
+  .launcherNewsItemsContainer {
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+  }
+  
+    .launcherNewsItemContainer {
+      background-color: transparent;  
+      padding-top: 10px;
+      clear: both;
+    }
+    
+      .launcherNewsItemTitle {
+        color: #EED317;
+        font-size: 9pt;
+        font-weight: bold;
+        float: left;
+      }
+      
+      .launcherNewsItemDate {
+        font-size: 9pt;
+        font-weight: bold;
+        line-height: 11pt;
+        text-align: left;
+        float: right;
+        padding-left: 10px;
+      }
+      
+      .launcherNewsItemDescription, .launcherNewsItemDescription p {
+        font-size: 8pt;
+        line-height: 11pt;
+        text-align: justify;
+        clear: both;
+        display: block;
+      }
+  
+  .launcherAlertsItemsContainer {
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+  }
+  
+    .launcherAlertItemContainer {
+      background-color: transparent;  
+      padding-top: 10px;
+      clear: both;
+    }
+    
+      .launcherAlertItemTitle {
+        color: #EED317;
+        font-size: 9pt;
+        font-weight: bold;
+        float: left;
+      }
+      
+      .launcherAlertItemDate {
+        font-size: 9pt;
+        font-weight: bold;
+        line-height: 11pt;
+        text-align: left;
+        padding-left: 10px;
+        float: right;
+      }
+      
+      .launcherAlertItemDescription, .launcherAlertItemDescription p {
+        font-size: 8pt;
+        line-height: 11pt;
+        text-align: justify;
+        clear: both;
+      }
+
+/******************************************************************************
+/*                            HEADLINE STYLES                                 *
+/******************************************************************************/
+
+.headlineLarge {
+  font-size: 18pt;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+.headlineMedium {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #666;
+  border-bottom: 1px solid #666;
+}
+
+.headlineSmall {
+  font-size: 12pt;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+
+
+
+
+/******************************************************************************
+/*                            BODY TEXT STYLES                                *
+/******************************************************************************/
+
+p {
+
+}
+
+.bodyTextLarge {
+  font-size: 120%;
+  line-height: 14pt;
+}
+
+.bodyTextMedium {
+  font-size: 100%;
+  line-height: 16pt;
+}
+
+.bodyTextSmall {
+  font-size: 90%;
+}
+
+.bodyTextTiny {
+  font-size: 80%;
+}
+
+
+
+
+
+/******************************************************************************
+/*                              TABLE STYLES                                  *
+/******************************************************************************/
+
+table {
+
+}
+
+tr {
+
+}
+
+td {
+
+}
+
+.tableHeaderLarge {
+  font-weight: bold;
+  font-size: 140%;
+  background-color: #c44;
+  color: #fff;
+  border-bottom: 2px solid #000;
+  padding: 4px;
+}
+
+.tableHeaderMedium {
+  font-weight: bold;
+  font-size: 110%;
+  background-color: #953;
+  color: #fff;
+  border-bottom: 2px solid #000;
+  padding: 4px;
+}
+
+.tableHeaderSmall {
+  font-weight: bold;
+  font-size: 100%;
+  background-color: #dc9;
+  color: #000;
+  border-bottom: 2px solid #000;
+  padding: 4px;
+}
+
+/*
+ * The "block" table styles can be used either for rows--for alternating row
+ *  colors, for instance--or for individual cells within a row.
+ */
+.blockDark {
+  background-color: #647d8f;
+  color: #fff;
+}
+
+.blockMedium {
+  background-color: #ddd;
+  color: #000;
+}
+
+.blockLight {
+  background-color: #fff;
+  color: #000;
+}
+
+.blockHighlight {
+  background-color: #ff9;
+  font-weight: bold;
+}
+
+div.blockLight, div.blockMedium, div.blockDark, div.blockHighlight {
+  padding: 3px;
+}
+
+
+
+
+
+/******************************************************************************
+/*                            NAVIGATION STYLES                               *
+/******************************************************************************/
+
+.navMenuHeaderLarge {
+
+}
+
+    .navMenuHeaderLarge:hover {
+
+    }
+
+    .navMenuHeaderLarge:visited {
+
+    }
+
+
+.navMenuHeaderMedium {
+  font-size: 100%;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+    .navMenuHeaderMedium:hover {
+
+    }
+
+    .navMenuHeaderMedium:visited {
+
+    }
+
+
+.navMenuHeaderSmall {
+
+}
+
+    .navMenuHeaderSmall:hover {
+
+    }
+
+    .navMenuHeaderSmall:visited {
+
+    }
+
+
+.navMenuItemLarge {
+
+}
+
+    .navMenuItemLarge:hover {
+
+    }
+
+    .navMenuItemLarge:visited {
+
+    }
+
+
+.navMenuItemMedium {
+  padding-left: 20px;
+}
+
+    .navMenuItemMedium:hover {
+
+    }
+
+    .navMenuItemMedium:visited {
+
+    }
+
+
+.navMenuItemSmall {
+
+}
+
+    .navMenuItemSmall:hover {
+
+    }
+
+    .navMenuItemSmall:visited {
+
+    }
+
+
+
+
+
+/******************************************************************************
+/*                              FOOTER STYLES                                 *
+/******************************************************************************/
+
+.footerLarge {
+
+}
+
+.footerMedium {
+
+}
+
+.footerSmall {
+
+}
+
+
+
+
+
+/******************************************************************************
+ * TEXT BUTTON STYLES -- Don't mess with these.  These are mainly for admin   *
+ * purposes.  Feel free to use them if you need to, but please don't change   *
+ * the styles.                                                                *
+ ******************************************************************************/
+
+.flatButton {
+  border-left: 1px solid #c6c6c6;
+  border-right: 1px solid black;
+  border-top: 1px solid #C6C6C6;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 100%;
+  font-weight: bold;
+  padding: 2px;
+}

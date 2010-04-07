@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+<appSettings>
+<add key="LauncherConfig.DateTime" value="111208"/>
+<add key="LauncherConfig.RefreshFrequency" value="15"/> <!-- minutes -->
+
+<add key="GameName" value="LOTROEU"/>
+<add key="Patching.ProductCode" value="LOTROEU"/>
+
+<add key="Authenticator.GLSTicketRefreshFrequency" value="15"/> <!-- minutes -->
+
+<add key="GameClient.Filename" value="lotroclient.exe"/>
+<add key="GameClient.ArgTemplate" value="-a {0} -h {1} --glsticketdirect {2} --chatserver {3} --language {4} --bugurl http://lotro-europe.com/bug.php --supporturl http://94.75.194.228/TSSTrowser/Trowser.aspx -GameType LOTROEU --authserverurl https://lotroeugls.com/gls.authserver/service.asmx --glsticketlifetime 86400"/>
+<add key="GameClient.ResetGraphicsArg" value=" --safe"/>
+
+<add key="URL.Support" value="http://www.lotro-europe.com/support"/>
+<add key="URL.Home" value="http://www.lotro-europe.com"/>
+<add key="URL.Community" value="http://community.codemasters.com/forum/forumdisplay.php?f=417"/>
+<add key="URL.Account" value="https://cogaccounts.codemasters.com"/>
+<add key="URL.Account.Post" value="https://cogaccounts.codemasters.com"/>
+<add key="URL.NewAccount" value="https://cogaccounts.codemasters.com/account-signup.php"/>
+
+<add key="URL.PrivacyPolicy" value="http://www.lotro-europe.com/privacy.php"/>
+<add key="URL.ForgotPassword" value="https://cogaccounts.codemasters.com/forgotten-password.php"/>
+
+<add key="URL.NewsStyleSheet" value="http://lotroeugls.com/News/News.xslt"/>
+<add key="URL.AlertsStyleSheet" value="http://lotroeugls.com/News/Alerts.xslt"/>
+
+<add key="URL.NewsFeed" value="http://lotroeugls.com/News/cache_{lang}.xml"/>
+
+
+<add key="URL.LogoButton1" value="http://www.codemasters.com"/>
+<add key="URL.LogoButton2" value="http://www.codemasters.com"/>
+<add key="URL.LogoButton3" value="http://www.codemasters.com"/>
+<add key="URL.LogoButton4" value="http://www.codemasters.com"/>
+<add key="URL.LogoButton5" value="http://www.codemasters.com"/>
+
+<add key="Format.Account.Login" value="form_user_name={0}&amp;form_user_pass={1}&amp;siteuser[action]=login&amp;user[action]=login&amp;billing[process]=1&amp;billing[action]=1" />
+
+<add key="WorldUpdateRate" value="1"/>            <!-- minutes -->
+
+<add key="PatchWindow" value="30"/>                <!-- minutes -->
+<add key="PatchConnectRetryInterval" value="1"/><!-- minutes -->
+
+<add key="DisablePatch" value="false"/>
+
+                <add key="URL.BannerSource" value="http://lotroeugls.com/Launcher/launcher_ad_buynow_{lang}.png"/>
+                <add key="URL.BannerTarget" value="http://www.codemasters.co.uk/eshop/more-details.php?gid=2769&amp;pid=298"/>
+
+<add key="GameClient.AlwaysPatchHighRes" value="true"/>
+<add key="GameClient.HighResPatchArg" value=" --HighResOutOfDate"/>
+
+<add key="URL.ReqSoftwareInstall" value="http://lotroeugls.com/Dependencies/Dependencies.xml"/>
+
+<!-- Standalone Updater -->
+<add key="GameClient.RequiredVersion" value="2.02"/>
+<add key="GameClient.ForwardVersion" value="2.02"/>
+<add key="URL.UpdateDownload" value="http://community.lotro-europe.com/newspage.php?id=2351"/>
+<add key="Patch.UpdaterNameFormat" value="{0}updater_{1}_{2}.exe"/>
+
+<!-- Login Queue -->
+<add key="WorldQueue.LoginQueue.URL" value="http://lotroeugls.com/login/login_queue.php"/>
+<add key="WorldQueue.TakeANumber.Parameters" value="command=TakeANumber&amp;subscription={0}&amp;ticket={1}&amp;ticket_type=GLS&amp;queue_url={2}"/>
+<add key="WorldQueue.LeaveQueue.Parameters" value="command=LeaveQueue&amp;subscription={0}&amp;ticket={1}&amp;ticket_type=GLS&amp;queue_url={2}"/>
+
+<add key="WorldQueue.Threshold.WaitTimeMultiplier" value="1.00"/>
+<add key="WorldQueue.Threshold.Medium" value="300"/>  <!-- seconds -->
+<add key="WorldQueue.Threshold.Long" value="900"/>    <!-- seconds -->
+<add key="WorldQueue.PollTimer" value="15"/>          <!-- seconds -->
+
+<add key="Eula.en-GB.Filepath" value="en-GB\LOTRO Eula.rtf"/>
+<add key="Eula.fr.Filepath" value="fr\LOTRO Eula.rtf"/>
+<add key="Eula.de.Filepath" value="de\LOTRO Eula.rtf"/>
+
+</appSettings>
+</configuration>
